@@ -10,16 +10,23 @@ The primary goal of this project was to build an automated system that could ass
 # Tools and Technologies Used:
 
 TensorFlow: Employed as the main deep learning framework for building and training the CNN model.
+
 Python: Used for data processing, image manipulation, and scripting model training and evaluation.
+
 OpenCV and PIL: Utilized for image preprocessing techniques such as resizing, normalization, and augmentation.
+
 Jupyter Notebook: Aided in iterative model development, visualization, and documentation.
+
 Matplotlib/Seaborn: Visualization tools used to plot training/validation curves, confusion matrices, and model performance metrics.
 
 # Key Achievements:
 
 High Classification Accuracy: Achieved high accuracy in classifying multiple potato leaf diseases, showing the model’s robustness in distinguishing between healthy and diseased leaves.
+
 Efficient Data Augmentation: Implemented data augmentation techniques to enhance the diversity of training data, which improved model generalizability and reduced overfitting.
+
 Model Optimization: Conducted hyperparameter tuning to improve model performance, adjusting parameters like learning rate, batch size, and layer configurations.
+
 Scalability for Deployment: Developed a model that could be scaled for use in mobile or edge devices for real-time disease detection in field settings.
 
 # Process Overview:
@@ -28,11 +35,19 @@ Data Collection: Utilized a dataset of potato leaf images, including various cla
 
 Data Preprocessing:
 
-Image Resizing: Standardized all images to a fixed resolution for uniform input to the CNN model.
-Normalization: Scaled pixel values to improve convergence during training.
-Data Augmentation: Applied transformations such as rotation, flipping, and cropping to artificially expand the dataset and enhance model resilience.
-Model Architecture: Built a CNN model with convolutional, pooling, and fully connected layers optimized for image classification tasks.
+Image Resizing: 
+Standardized all images to a fixed resolution for uniform input to the CNN model.
+
+Normalization: 
+Scaled pixel values to improve convergence during training.
+
+Data Augmentation: 
+Applied transformations such as rotation, flipping, and cropping to artificially expand the dataset and enhance model resilience.
+
+Model Architecture: 
+Built a CNN model with convolutional, pooling, and fully connected layers optimized for image classification tasks.
 Experimented with different architectures and layer configurations to improve accuracy and reduce computation time.
+
 Training and Validation:
 
 Split the dataset into training, validation, and test sets.
