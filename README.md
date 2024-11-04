@@ -31,23 +31,22 @@ Data Preprocessing:
 Image Resizing: Standardized all images to a fixed resolution for uniform input to the CNN model.
 Normalization: Scaled pixel values to improve convergence during training.
 Data Augmentation: Applied transformations such as rotation, flipping, and cropping to artificially expand the dataset and enhance model resilience.
-Model Architecture:
-
-Built a CNN model with convolutional, pooling, and fully connected layers optimized for image classification tasks.
+Model Architecture: Built a CNN model with convolutional, pooling, and fully connected layers optimized for image classification tasks.
 Experimented with different architectures and layer configurations to improve accuracy and reduce computation time.
 Training and Validation:
 
 Split the dataset into training, validation, and test sets.
 Trained the model on the training set while monitoring performance on the validation set to prevent overfitting.
 Used metrics like accuracy, precision, recall, and F1-score for evaluation, optimizing the model based on validation results.
-Evaluation and Tuning:
 
+Evaluation and Tuning:
 Evaluated the model on a test dataset, analyzing misclassified images to identify patterns and further refine the model.
 Adjusted hyperparameters and model architecture iteratively, balancing accuracy and computational efficiency.
-Deployment Preparation:
 
+Deployment Preparation:
 Prepared the model for deployment by converting it to a TensorFlow Lite model, enabling compatibility with mobile and edge devices for potential real-world use in the field.
 
-# Project Impact: This project demonstrates the ability to apply deep learning techniques to real-world agricultural challenges. The CNN model could significantly aid in reducing the labor and time required for disease diagnosis, thereby contributing to more sustainable farming practices. It also lays the foundation for further research into multi-crop disease classification and precision agriculture applications.
+# Project Impact: 
+This project demonstrates the ability to apply deep learning techniques to real-world agricultural challenges. The CNN model could significantly aid in reducing the labor and time required for disease diagnosis, thereby contributing to more sustainable farming practices. It also lays the foundation for further research into multi-crop disease classification and precision agriculture applications.
 
 This detailed description covers the full lifecycle of the project and emphasizes both technical accomplishments and practical impact. Let me know if you’d like to focus on any specific area further!
